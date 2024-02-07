@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+select {
+    border: none;
+}
+body{
+background: url("../img/logo.svg");
+
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50px;
+background-color: black;
+}
+
+.header-list{
+display: flex;
+align-items: center;
+gap: 30px;
+margin-left: 60px;
+border: transparent;
+}
+
+.select{
+background-color: black;
+color: white;
+font-weight: 700;
+
+}
+.select:hover{
+border-bottom: 2px solid red;
+
+}
+
+
+.link{
+color: white;
+font-weight: 700;
+}
+.link:hover{
+border-bottom: 2px solid yellow;
+
+}
+.modal{
+display: flex;
+justify-content:space-evenly;
+width: 400px;
+height: 100vh;
+background-color: rgb(237, 240, 243);
+background: url("../img/nasa-hubble-space-telescope-pzyMUB112qY-unsplash.jpg" );
+}
+.closebtn{
+    border: none;
+height: 50px;
+margin-right: -90px;
+}
+.main-img{
+margin-left: 500px;
+margin-top: 200px;
+
+}
